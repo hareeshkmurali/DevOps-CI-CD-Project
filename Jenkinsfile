@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/hareeshmurali/javawebapp'
+        git branch: 'main', url: 'https://github.com/hareeshkmurali/DevOps-CI-CD-Project'
       }
     }
 	  
